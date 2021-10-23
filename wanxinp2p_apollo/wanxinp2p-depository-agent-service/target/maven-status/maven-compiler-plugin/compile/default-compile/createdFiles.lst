@@ -1,5 +1,0 @@
-cn\itcast\wanxinp2p\depository\entity\DepositoryRecord.class
-cn\itcast\wanxinp2p\depository\mapper\DepositoryRecordMapper.class
-cn\itcast\wanxinp2p\depository\interceptor\SignatureInterceptor.class
-cn\itcast\wanxinp2p\depository\service\OkHttpService.class
-cn\itcast\wanxinp2p\depository\DepositoryAgentService.class

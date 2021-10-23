@@ -1,6 +1,0 @@
-[${project.name}][${env:SERVER_PORT}] 2021-10-08 12:00:00,479 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 11ms
-[${project.name}][${env:SERVER_PORT}] 2021-10-08 12:00:10,492 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 13ms
-[${project.name}][${env:SERVER_PORT}] 2021-10-08 12:00:20,501 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 9ms
-[${project.name}][${env:SERVER_PORT}] 2021-10-08 12:00:26,168 INFO [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater][PeerAwareInstanceRegistryImpl.java:539] - Current renewal threshold is : 0
-[${project.name}][${env:SERVER_PORT}] 2021-10-08 12:00:30,515 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 14ms
-[${project.name}][${env:SERVER_PORT}] 2021-10-08 12:00:40,529 INFO [Eureka-EvictionTimer][AbstractInstanceRegistry.java:1250] - Running the evict task with compensationTime 14ms

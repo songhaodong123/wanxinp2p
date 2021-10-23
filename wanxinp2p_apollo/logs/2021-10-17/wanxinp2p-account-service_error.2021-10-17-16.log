@@ -1,3 +1,0 @@
-[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-10-17 16:23:38,344 ERROR [http-nio-53030-exec-1][GlobalExceptionHandler.java:49] - 【系统异常】你搞事？
-[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-10-17 16:25:05,697 ERROR [http-nio-53030-exec-3][GlobalExceptionHandler.java:49] - 【系统异常】你搞事？
-[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-10-17 16:28:41,370 ERROR [http-nio-53030-exec-1][GlobalExceptionHandler.java:49] - 【系统异常】你搞事？

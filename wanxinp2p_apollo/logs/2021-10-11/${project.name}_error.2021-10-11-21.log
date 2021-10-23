@@ -1,2 +1,0 @@
-[${project.name}][${env:SERVER_PORT}] 2021-10-12 20:41:33,798 ERROR [http-nio-53050-exec-3][GlobalExceptionHandler.java:47] - 【系统异常】JSON parse error: Unexpected character ('}' (code 125)): was expecting double-quote to start field name; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('}' (code 125)): was expecting double-quote to start field name
- at [Source: (PushbackInputStream); line: 3, column: 2]
