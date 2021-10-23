@@ -1,0 +1,9 @@
+D:\java\wanxinp2p_apollo\wanxinp2p-gateway-server\src\main\java\cn\itcast\wanxinp2p\gateway\config\ZuulConfig.java
+D:\java\wanxinp2p_apollo\wanxinp2p-gateway-server\src\main\java\cn\itcast\wanxinp2p\gateway\GatewayServer.java
+D:\java\wanxinp2p_apollo\wanxinp2p-gateway-server\src\main\java\cn\itcast\wanxinp2p\gateway\config\RestOAuth2AuthExceptionEntryPoint.java
+D:\java\wanxinp2p_apollo\wanxinp2p-gateway-server\src\main\java\cn\itcast\wanxinp2p\gateway\common\util\HttpUtil.java
+D:\java\wanxinp2p_apollo\wanxinp2p-gateway-server\src\main\java\cn\itcast\wanxinp2p\gateway\config\ClientDefaultAccessTokenConverter.java
+D:\java\wanxinp2p_apollo\wanxinp2p-gateway-server\src\main\java\cn\itcast\wanxinp2p\gateway\config\ResouceServerConfig.java
+D:\java\wanxinp2p_apollo\wanxinp2p-gateway-server\src\main\java\cn\itcast\wanxinp2p\gateway\config\RestAccessDeniedHandler.java
+D:\java\wanxinp2p_apollo\wanxinp2p-gateway-server\src\main\java\cn\itcast\wanxinp2p\gateway\filter\AuthFilter.java
+D:\java\wanxinp2p_apollo\wanxinp2p-gateway-server\src\main\java\cn\itcast\wanxinp2p\gateway\config\JWTConfig.java

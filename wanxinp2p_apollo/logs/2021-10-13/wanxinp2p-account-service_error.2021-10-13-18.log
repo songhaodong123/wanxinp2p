@@ -1,0 +1,4 @@
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-10-13 18:41:31,457 ERROR [http-nio-53030-exec-8][GlobalExceptionHandler.java:49] - 【系统异常】JSON parse error: Unexpected character ('}' (code 125)): was expecting double-quote to start field name; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('}' (code 125)): was expecting double-quote to start field name
+ at [Source: (PushbackInputStream); line: 3, column: 2]
+[wanxinp2p-account-service][${env:SERVER_PORT}] 2021-10-13 18:45:34,315 ERROR [http-nio-53030-exec-2][GlobalExceptionHandler.java:49] - 【系统异常】JSON parse error: Unexpected character ('}' (code 125)): was expecting double-quote to start field name; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('}' (code 125)): was expecting double-quote to start field name
+ at [Source: (PushbackInputStream); line: 5, column: 2]

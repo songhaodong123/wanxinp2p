@@ -1,0 +1,5 @@
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-19 09:01:59,043 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-19 09:06:59,049 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-19 09:11:59,066 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-19 09:13:02,025 WARN [http-nio-53010-exec-7][AbstractRibbonCommand.java:115] - The Hystrix timeout of 93000ms for the command consumer-service is set lower than the combination of the Ribbon read and connect timeout, 104000ms.
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-19 09:16:59,068 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration

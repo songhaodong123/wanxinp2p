@@ -1,0 +1,7 @@
+cn\itcast\wanxinp2p\consumer\config\SwaggerConfiguration.class
+cn\itcast\wanxinp2p\consumer\service\ConsumerServiceImpl.class
+cn\itcast\wanxinp2p\consumer\controller\ConsumerController.class
+cn\itcast\wanxinp2p\consumer\entity\Consumer.class
+cn\itcast\wanxinp2p\consumer\mapper\ConsumerMapper.class
+cn\itcast\wanxinp2p\consumer\ConsumerService.class
+cn\itcast\wanxinp2p\consumer\service\ConsumerService.class

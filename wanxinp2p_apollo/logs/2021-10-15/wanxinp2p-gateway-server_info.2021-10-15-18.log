@@ -1,0 +1,514 @@
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:00:54,381 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:05:54,397 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:10:54,406 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:15:54,409 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:20:54,412 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:25:54,424 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:30:54,431 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:35:54,438 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:40:54,445 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:45:54,454 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:50:54,461 INFO [AsyncResolver-bootstrap-executor-0][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:37,238 INFO [main][DefaultApplicationProvider.java:85] - App ID is set to gateway-server by app.id property from System Property
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:37,242 INFO [main][DefaultServerProvider.java:108] - Environment is set to [dev] by JVM system property 'env'.
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:37,269 WARN [main][DefaultMetaServerProvider.java:39] - Could not find meta server address, because it is not available in neither (1) JVM system property 'apollo.meta', (2) OS env variable 'APOLLO_META' (3) property 'apollo.meta' from server.properties nor (4) property 'apollo.meta' from app.properties
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:37,273 INFO [main][MetaDomainConsts.java:93] - Located meta server address http://localhost:8080 for env DEV from com.ctrip.framework.apollo.core.internals.LegacyMetaServerProvider
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:37,680 INFO [main][SpringApplication.java:675] - No active profile set, falling back to default profiles: default
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:38,743 INFO [main][RepositoryConfigurationDelegate.java:244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:38,746 INFO [main][RepositoryConfigurationDelegate.java:126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:38,775 INFO [main][RepositoryConfigurationDelegate.java:182] - Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:38,931 WARN [main][EndpointId.java:135] - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:38,956 WARN [main][EndpointId.java:135] - Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:39,036 INFO [main][ConfigurationClassPostProcessor.java:380] - Cannot enhance @Configuration bean definition 'com.ctrip.framework.apollo.spring.boot.ApolloAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:39,194 INFO [main][GenericScope.java:294] - BeanFactory id=a8e9e3f4-dc72-3797-9d64-ded9e20b29fa
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:39,210 WARN [main][PropertySourcesDeducer.java:75] - Multiple PropertySourcesPlaceholderConfigurer beans registered [propertySourcesPlaceholderConfigurer, org.springframework.context.support.PropertySourcesPlaceholderConfigurer], falling back to Environment
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:39,419 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$2eee91b1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:39,755 INFO [main][TomcatWebServer.java:90] - Tomcat initialized with port(s): 53010 (http)
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:39,773 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-53010"]
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:39,782 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:39,783 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:39,789 INFO [main][DirectJDKLog.java:173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_291\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\java\Maven\apache-maven-3.6.3\bin;C:\mysql-5.7.26-winx64\bin;C:\Program Files\Java\jdk1.8.0_291\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\12715\AppData\Local\Microsoft\WindowsApps;;.]
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:39,968 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:39,968 INFO [main][ServletWebServerApplicationContext.java:296] - Root WebApplicationContext: initialization completed in 2276 ms
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:40,102 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:40,102 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:40,111 INFO [main][DynamicPropertyFactory.java:281] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@39549f33
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:41,487 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:41,488 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:41,676 INFO [main][ExecutorConfigurationSupport.java:171] - Initializing ExecutorService 'applicationTaskExecutor'
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:42,729 INFO [main][ZuulFilterInitializer.java:65] - Starting filter initializer
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:42,754 INFO [main][EndpointLinksResolver.java:59] - Exposing 2 endpoint(s) beneath base path '/actuator'
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:42,834 INFO [main][InstanceInfoFactory.java:71] - Setting initial instance status as: STARTING
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:42,868 INFO [main][DiscoveryClient.java:349] - Initializing Eureka in region us-east-1
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:42,919 INFO [main][DiscoveryJerseyProvider.java:70] - Using JSON encoding codec LegacyJacksonJson
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:42,919 INFO [main][DiscoveryJerseyProvider.java:71] - Using JSON decoding codec LegacyJacksonJson
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:43,237 INFO [main][DiscoveryJerseyProvider.java:80] - Using XML encoding codec XStreamXml
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:43,238 INFO [main][DiscoveryJerseyProvider.java:81] - Using XML decoding codec XStreamXml
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:43,558 INFO [main][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:43,772 INFO [main][DiscoveryClient.java:958] - Disable delta property : false
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:43,773 INFO [main][DiscoveryClient.java:959] - Single vip registry refresh property : null
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:43,773 INFO [main][DiscoveryClient.java:960] - Force full registry fetch : false
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:43,773 INFO [main][DiscoveryClient.java:961] - Application is null : false
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:43,773 INFO [main][DiscoveryClient.java:962] - Registered Applications size is zero : true
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:43,774 INFO [main][DiscoveryClient.java:964] - Application version is -1: true
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:43,774 INFO [main][DiscoveryClient.java:1047] - Getting all instance registry info from the eureka server
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:43,903 INFO [main][DiscoveryClient.java:1056] - The response status is 200
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:43,906 INFO [main][DiscoveryClient.java:1270] - Starting heartbeat executor: renew interval is: 30
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:43,909 INFO [main][InstanceInfoReplicator.java:60] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:43,912 INFO [main][DiscoveryClient.java:449] - Discovery Client initialized at timestamp 1634295103911 with initial instances count: 3
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:43,914 INFO [main][EurekaServiceRegistry.java:42] - Registering application GATEWAY-SERVER with eureka with status UP
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:43,914 INFO [main][DiscoveryClient.java:1305] - Saw local status change event StatusChangeEvent [timestamp=1634295103914, current=UP, previous=STARTING]
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:43,916 INFO [DiscoveryClient-InstanceInfoReplicator-0][DiscoveryClient.java:826] - DiscoveryClient_GATEWAY-SERVER/gateway-server:192.168.0.13:53010: registering service...
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:43,930 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-53010"]
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:43,953 INFO [main][TomcatWebServer.java:204] - Tomcat started on port(s): 53010 (http) with context path ''
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:43,954 INFO [main][EurekaAutoServiceRegistration.java:141] - Updating port to 53010
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:43,956 INFO [main][StartupInfoLogger.java:59] - Started GatewayServer in 9.365 seconds (JVM running for 11.942)
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:43,963 INFO [DiscoveryClient-InstanceInfoReplicator-0][DiscoveryClient.java:835] - DiscoveryClient_GATEWAY-SERVER/gateway-server:192.168.0.13:53010 - registration status: 204
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:44,318 INFO [RMI TCP Connection(2)-192.168.0.13][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:44,318 INFO [RMI TCP Connection(2)-192.168.0.13][FrameworkServlet.java:524] - Initializing Servlet 'dispatcherServlet'
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:44,329 INFO [RMI TCP Connection(2)-192.168.0.13][FrameworkServlet.java:546] - Completed initialization in 10 ms
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:44,478 INFO [RMI TCP Connection(1)-192.168.0.13][EpollProvider.java:68] - Starting without optional epoll library
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:44,480 INFO [RMI TCP Connection(1)-192.168.0.13][KqueueProvider.java:70] - Starting without optional kqueue library
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:50,273 INFO [http-nio-53010-exec-1][ChainedDynamicProperty.java:115] - Flipping property: uaa-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:50,291 INFO [http-nio-53010-exec-1][ShutdownEnabledTimer.java:58] - Shutdown hook installed for: NFLoadBalancer-PingTimer-uaa-service
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:50,292 INFO [http-nio-53010-exec-1][BaseLoadBalancer.java:197] - Client: uaa-service instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=uaa-service,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:50,300 INFO [http-nio-53010-exec-1][DynamicServerListLoadBalancer.java:222] - Using serverListUpdater PollingServerListUpdater
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:50,324 INFO [http-nio-53010-exec-1][ChainedDynamicProperty.java:115] - Flipping property: uaa-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:50,328 INFO [http-nio-53010-exec-1][DynamicServerListLoadBalancer.java:150] - DynamicServerListLoadBalancer for client uaa-service initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=uaa-service,current list of Servers=[192.168.0.13:53020],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.0.13:53020;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@4f30dbd0
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:51:51,302 INFO [PollingServerListUpdater-0][ChainedDynamicProperty.java:115] - Flipping property: uaa-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:16,355 INFO [main][DefaultApplicationProvider.java:85] - App ID is set to gateway-server by app.id property from System Property
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:16,360 INFO [main][DefaultServerProvider.java:108] - Environment is set to [dev] by JVM system property 'env'.
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:16,397 WARN [main][DefaultMetaServerProvider.java:39] - Could not find meta server address, because it is not available in neither (1) JVM system property 'apollo.meta', (2) OS env variable 'APOLLO_META' (3) property 'apollo.meta' from server.properties nor (4) property 'apollo.meta' from app.properties
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:16,402 INFO [main][MetaDomainConsts.java:93] - Located meta server address http://localhost:8080 for env DEV from com.ctrip.framework.apollo.core.internals.LegacyMetaServerProvider
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:16,873 INFO [main][SpringApplication.java:675] - No active profile set, falling back to default profiles: default
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:18,303 INFO [main][RepositoryConfigurationDelegate.java:244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:18,307 INFO [main][RepositoryConfigurationDelegate.java:126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:18,379 INFO [main][RepositoryConfigurationDelegate.java:182] - Finished Spring Data repository scanning in 26ms. Found 0 repository interfaces.
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:18,705 WARN [main][EndpointId.java:135] - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:18,728 WARN [main][EndpointId.java:135] - Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:18,907 INFO [main][ConfigurationClassPostProcessor.java:380] - Cannot enhance @Configuration bean definition 'com.ctrip.framework.apollo.spring.boot.ApolloAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:19,164 INFO [main][GenericScope.java:294] - BeanFactory id=a8e9e3f4-dc72-3797-9d64-ded9e20b29fa
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:19,193 WARN [main][PropertySourcesDeducer.java:75] - Multiple PropertySourcesPlaceholderConfigurer beans registered [propertySourcesPlaceholderConfigurer, org.springframework.context.support.PropertySourcesPlaceholderConfigurer], falling back to Environment
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:19,442 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$1863125] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:19,861 INFO [main][TomcatWebServer.java:90] - Tomcat initialized with port(s): 53010 (http)
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:19,896 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-53010"]
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:19,914 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:19,915 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:19,925 INFO [main][DirectJDKLog.java:173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_291\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\java\Maven\apache-maven-3.6.3\bin;C:\mysql-5.7.26-winx64\bin;C:\Program Files\Java\jdk1.8.0_291\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\12715\AppData\Local\Microsoft\WindowsApps;;.]
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:20,185 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:20,186 INFO [main][ServletWebServerApplicationContext.java:296] - Root WebApplicationContext: initialization completed in 3297 ms
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:20,337 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:20,338 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:20,355 INFO [main][DynamicPropertyFactory.java:281] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@565aa4ac
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:22,702 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:22,703 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:23,144 INFO [main][ExecutorConfigurationSupport.java:171] - Initializing ExecutorService 'applicationTaskExecutor'
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:24,524 INFO [main][ZuulFilterInitializer.java:65] - Starting filter initializer
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:24,565 INFO [main][EndpointLinksResolver.java:59] - Exposing 2 endpoint(s) beneath base path '/actuator'
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:24,663 INFO [main][InstanceInfoFactory.java:71] - Setting initial instance status as: STARTING
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:24,695 INFO [main][DiscoveryClient.java:349] - Initializing Eureka in region us-east-1
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:24,743 INFO [main][DiscoveryJerseyProvider.java:70] - Using JSON encoding codec LegacyJacksonJson
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:24,744 INFO [main][DiscoveryJerseyProvider.java:71] - Using JSON decoding codec LegacyJacksonJson
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:24,859 INFO [main][DiscoveryJerseyProvider.java:80] - Using XML encoding codec XStreamXml
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:24,859 INFO [main][DiscoveryJerseyProvider.java:81] - Using XML decoding codec XStreamXml
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:25,213 INFO [main][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:25,445 INFO [main][DiscoveryClient.java:958] - Disable delta property : false
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:25,445 INFO [main][DiscoveryClient.java:959] - Single vip registry refresh property : null
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:25,445 INFO [main][DiscoveryClient.java:960] - Force full registry fetch : false
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:25,446 INFO [main][DiscoveryClient.java:961] - Application is null : false
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:25,446 INFO [main][DiscoveryClient.java:962] - Registered Applications size is zero : true
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:25,446 INFO [main][DiscoveryClient.java:964] - Application version is -1: true
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:25,446 INFO [main][DiscoveryClient.java:1047] - Getting all instance registry info from the eureka server
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:25,697 INFO [main][DiscoveryClient.java:1056] - The response status is 200
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:25,699 INFO [main][DiscoveryClient.java:1270] - Starting heartbeat executor: renew interval is: 30
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:25,702 INFO [main][InstanceInfoReplicator.java:60] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:25,706 INFO [main][DiscoveryClient.java:449] - Discovery Client initialized at timestamp 1634295145705 with initial instances count: 0
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:25,708 INFO [main][EurekaServiceRegistry.java:42] - Registering application GATEWAY-SERVER with eureka with status UP
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:25,709 INFO [main][DiscoveryClient.java:1305] - Saw local status change event StatusChangeEvent [timestamp=1634295145709, current=UP, previous=STARTING]
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:25,712 INFO [DiscoveryClient-InstanceInfoReplicator-0][DiscoveryClient.java:826] - DiscoveryClient_GATEWAY-SERVER/gateway-server:192.168.0.13:53010: registering service...
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:25,730 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-53010"]
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:25,762 INFO [main][TomcatWebServer.java:204] - Tomcat started on port(s): 53010 (http) with context path ''
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:25,763 INFO [main][EurekaAutoServiceRegistration.java:141] - Updating port to 53010
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:25,767 INFO [main][StartupInfoLogger.java:59] - Started GatewayServer in 11.7 seconds (JVM running for 13.494)
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:25,819 INFO [DiscoveryClient-InstanceInfoReplicator-0][DiscoveryClient.java:835] - DiscoveryClient_GATEWAY-SERVER/gateway-server:192.168.0.13:53010 - registration status: 204
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:26,309 INFO [RMI TCP Connection(7)-192.168.0.13][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:26,310 INFO [RMI TCP Connection(7)-192.168.0.13][FrameworkServlet.java:524] - Initializing Servlet 'dispatcherServlet'
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:26,322 INFO [RMI TCP Connection(7)-192.168.0.13][FrameworkServlet.java:546] - Completed initialization in 12 ms
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:26,442 INFO [RMI TCP Connection(8)-192.168.0.13][EpollProvider.java:68] - Starting without optional epoll library
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:26,444 INFO [RMI TCP Connection(8)-192.168.0.13][KqueueProvider.java:70] - Starting without optional kqueue library
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:55,706 INFO [DiscoveryClient-CacheRefreshExecutor-0][DiscoveryClient.java:958] - Disable delta property : false
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:55,707 INFO [DiscoveryClient-CacheRefreshExecutor-0][DiscoveryClient.java:959] - Single vip registry refresh property : null
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:55,707 INFO [DiscoveryClient-CacheRefreshExecutor-0][DiscoveryClient.java:960] - Force full registry fetch : false
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:55,707 INFO [DiscoveryClient-CacheRefreshExecutor-0][DiscoveryClient.java:961] - Application is null : false
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:55,707 INFO [DiscoveryClient-CacheRefreshExecutor-0][DiscoveryClient.java:962] - Registered Applications size is zero : true
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:55,707 INFO [DiscoveryClient-CacheRefreshExecutor-0][DiscoveryClient.java:964] - Application version is -1: false
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:55,707 INFO [DiscoveryClient-CacheRefreshExecutor-0][DiscoveryClient.java:1047] - Getting all instance registry info from the eureka server
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:55,758 INFO [DiscoveryClient-CacheRefreshExecutor-0][DiscoveryClient.java:1056] - The response status is 200
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:57,910 INFO [http-nio-53010-exec-2][ChainedDynamicProperty.java:115] - Flipping property: uaa-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:57,930 INFO [http-nio-53010-exec-2][ShutdownEnabledTimer.java:58] - Shutdown hook installed for: NFLoadBalancer-PingTimer-uaa-service
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:57,931 INFO [http-nio-53010-exec-2][BaseLoadBalancer.java:197] - Client: uaa-service instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=uaa-service,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:57,952 INFO [http-nio-53010-exec-2][DynamicServerListLoadBalancer.java:222] - Using serverListUpdater PollingServerListUpdater
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:57,958 INFO [http-nio-53010-exec-2][DynamicServerListLoadBalancer.java:150] - DynamicServerListLoadBalancer for client uaa-service initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=uaa-service,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@2900c27e
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:52:58,323 WARN [http-nio-53010-exec-2][SendErrorFilter.java:81] - Error during filtering
+com.netflix.zuul.exception.ZuulException: Forwarding error
+	at org.springframework.cloud.netflix.zuul.filters.route.RibbonRoutingFilter.handleException(RibbonRoutingFilter.java:191)
+	at org.springframework.cloud.netflix.zuul.filters.route.RibbonRoutingFilter.forward(RibbonRoutingFilter.java:166)
+	at org.springframework.cloud.netflix.zuul.filters.route.RibbonRoutingFilter.run(RibbonRoutingFilter.java:114)
+	at com.netflix.zuul.ZuulFilter.runFilter(ZuulFilter.java:117)
+	at com.netflix.zuul.FilterProcessor.processZuulFilter(FilterProcessor.java:193)
+	at com.netflix.zuul.FilterProcessor.runFilters(FilterProcessor.java:157)
+	at com.netflix.zuul.FilterProcessor.route(FilterProcessor.java:118)
+	at com.netflix.zuul.ZuulRunner.route(ZuulRunner.java:96)
+	at com.netflix.zuul.http.ZuulServlet.route(ZuulServlet.java:116)
+	at com.netflix.zuul.http.ZuulServlet.service(ZuulServlet.java:81)
+	at org.springframework.web.servlet.mvc.ServletWrappingController.handleRequestInternal(ServletWrappingController.java:165)
+	at org.springframework.cloud.netflix.zuul.web.ZuulController.handleRequest(ZuulController.java:44)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:117)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:106)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.netflix.client.ClientException: Load balancer does not have available server for client: uaa-service
+	at org.springframework.cloud.netflix.ribbon.support.AbstractLoadBalancingClient.validateServiceInstance(AbstractLoadBalancingClient.java:143)
+	at org.springframework.cloud.netflix.ribbon.apache.RetryableRibbonLoadBalancingHttpClient.lambda$execute$0(RetryableRibbonLoadBalancingHttpClient.java:91)
+	at org.springframework.retry.support.RetryTemplate.doExecute(RetryTemplate.java:287)
+	at org.springframework.retry.support.RetryTemplate.execute(RetryTemplate.java:180)
+	at org.springframework.cloud.netflix.ribbon.apache.RetryableRibbonLoadBalancingHttpClient.executeWithRetry(RetryableRibbonLoadBalancingHttpClient.java:153)
+	at org.springframework.cloud.netflix.ribbon.apache.RetryableRibbonLoadBalancingHttpClient.execute(RetryableRibbonLoadBalancingHttpClient.java:125)
+	at org.springframework.cloud.netflix.ribbon.apache.RetryableRibbonLoadBalancingHttpClient.execute(RetryableRibbonLoadBalancingHttpClient.java:58)
+	at org.springframework.cloud.netflix.zuul.filters.route.support.AbstractRibbonCommand.run(AbstractRibbonCommand.java:184)
+	at org.springframework.cloud.netflix.zuul.filters.route.support.AbstractRibbonCommand.run(AbstractRibbonCommand.java:51)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:302)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:298)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:46)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:51)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:51)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeMap.call(OnSubscribeMap.java:48)
+	at rx.internal.operators.OnSubscribeMap.call(OnSubscribeMap.java:33)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:51)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.subscribe(Observable.java:10423)
+	at rx.Observable.subscribe(Observable.java:10390)
+	at rx.internal.operators.BlockingOperatorToFuture.toFuture(BlockingOperatorToFuture.java:51)
+	at rx.observables.BlockingObservable.toFuture(BlockingObservable.java:410)
+	at com.netflix.hystrix.HystrixCommand.queue(HystrixCommand.java:378)
+	at com.netflix.hystrix.HystrixCommand.execute(HystrixCommand.java:344)
+	at org.springframework.cloud.netflix.zuul.filters.route.RibbonRoutingFilter.forward(RibbonRoutingFilter.java:161)
+	... 68 more
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:53:29,081 INFO [PollingServerListUpdater-0][ChainedDynamicProperty.java:115] - Flipping property: uaa-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:00,534 INFO [main][DefaultApplicationProvider.java:85] - App ID is set to gateway-server by app.id property from System Property
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:00,540 INFO [main][DefaultServerProvider.java:108] - Environment is set to [dev] by JVM system property 'env'.
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:00,579 WARN [main][DefaultMetaServerProvider.java:39] - Could not find meta server address, because it is not available in neither (1) JVM system property 'apollo.meta', (2) OS env variable 'APOLLO_META' (3) property 'apollo.meta' from server.properties nor (4) property 'apollo.meta' from app.properties
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:00,587 INFO [main][MetaDomainConsts.java:93] - Located meta server address http://localhost:8080 for env DEV from com.ctrip.framework.apollo.core.internals.LegacyMetaServerProvider
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:00,997 INFO [main][SpringApplication.java:675] - No active profile set, falling back to default profiles: default
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:01,708 INFO [main][RepositoryConfigurationDelegate.java:244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:01,711 INFO [main][RepositoryConfigurationDelegate.java:126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:01,732 INFO [main][RepositoryConfigurationDelegate.java:182] - Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:01,869 WARN [main][EndpointId.java:135] - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:01,881 WARN [main][EndpointId.java:135] - Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:01,963 INFO [main][ConfigurationClassPostProcessor.java:380] - Cannot enhance @Configuration bean definition 'com.ctrip.framework.apollo.spring.boot.ApolloAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:02,082 INFO [main][GenericScope.java:294] - BeanFactory id=a8e9e3f4-dc72-3797-9d64-ded9e20b29fa
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:02,099 WARN [main][PropertySourcesDeducer.java:75] - Multiple PropertySourcesPlaceholderConfigurer beans registered [propertySourcesPlaceholderConfigurer, org.springframework.context.support.PropertySourcesPlaceholderConfigurer], falling back to Environment
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:02,284 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$859650fe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:02,562 INFO [main][TomcatWebServer.java:90] - Tomcat initialized with port(s): 53010 (http)
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:02,578 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-53010"]
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:02,586 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:02,587 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:02,594 INFO [main][DirectJDKLog.java:173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_291\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\java\Maven\apache-maven-3.6.3\bin;C:\mysql-5.7.26-winx64\bin;C:\Program Files\Java\jdk1.8.0_291\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\12715\AppData\Local\Microsoft\WindowsApps;;.]
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:02,801 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:02,802 INFO [main][ServletWebServerApplicationContext.java:296] - Root WebApplicationContext: initialization completed in 1793 ms
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:03,002 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:03,003 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:03,032 INFO [main][DynamicPropertyFactory.java:281] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@1f78d415
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:05,036 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:05,037 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:05,328 INFO [main][ExecutorConfigurationSupport.java:171] - Initializing ExecutorService 'applicationTaskExecutor'
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:07,623 INFO [main][ZuulFilterInitializer.java:65] - Starting filter initializer
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:07,730 INFO [main][EndpointLinksResolver.java:59] - Exposing 2 endpoint(s) beneath base path '/actuator'
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:07,972 INFO [main][InstanceInfoFactory.java:71] - Setting initial instance status as: STARTING
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:08,041 INFO [main][DiscoveryClient.java:349] - Initializing Eureka in region us-east-1
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:08,151 INFO [main][DiscoveryJerseyProvider.java:70] - Using JSON encoding codec LegacyJacksonJson
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:08,152 INFO [main][DiscoveryJerseyProvider.java:71] - Using JSON decoding codec LegacyJacksonJson
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:08,363 INFO [main][DiscoveryJerseyProvider.java:80] - Using XML encoding codec XStreamXml
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:08,363 INFO [main][DiscoveryJerseyProvider.java:81] - Using XML decoding codec XStreamXml
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:09,099 INFO [main][ConfigClusterResolver.java:43] - Resolving eureka endpoints via configuration
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:09,467 INFO [main][DiscoveryClient.java:958] - Disable delta property : false
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:09,468 INFO [main][DiscoveryClient.java:959] - Single vip registry refresh property : null
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:09,469 INFO [main][DiscoveryClient.java:960] - Force full registry fetch : false
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:09,469 INFO [main][DiscoveryClient.java:961] - Application is null : false
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:09,469 INFO [main][DiscoveryClient.java:962] - Registered Applications size is zero : true
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:09,470 INFO [main][DiscoveryClient.java:964] - Application version is -1: true
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:09,470 INFO [main][DiscoveryClient.java:1047] - Getting all instance registry info from the eureka server
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:10,139 INFO [main][DiscoveryClient.java:1056] - The response status is 200
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:10,143 INFO [main][DiscoveryClient.java:1270] - Starting heartbeat executor: renew interval is: 30
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:10,151 INFO [main][InstanceInfoReplicator.java:60] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:10,157 INFO [main][DiscoveryClient.java:449] - Discovery Client initialized at timestamp 1634295430156 with initial instances count: 0
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:10,161 INFO [main][EurekaServiceRegistry.java:42] - Registering application GATEWAY-SERVER with eureka with status UP
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:10,163 INFO [main][DiscoveryClient.java:1305] - Saw local status change event StatusChangeEvent [timestamp=1634295430163, current=UP, previous=STARTING]
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:10,167 INFO [DiscoveryClient-InstanceInfoReplicator-0][DiscoveryClient.java:826] - DiscoveryClient_GATEWAY-SERVER/gateway-server:192.168.0.13:53010: registering service...
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:10,202 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-53010"]
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:10,288 INFO [main][TomcatWebServer.java:204] - Tomcat started on port(s): 53010 (http) with context path ''
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:10,289 INFO [main][EurekaAutoServiceRegistration.java:141] - Updating port to 53010
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:10,293 INFO [main][StartupInfoLogger.java:59] - Started GatewayServer in 11.728 seconds (JVM running for 14.023)
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:10,388 INFO [DiscoveryClient-InstanceInfoReplicator-0][DiscoveryClient.java:835] - DiscoveryClient_GATEWAY-SERVER/gateway-server:192.168.0.13:53010 - registration status: 204
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:11,136 INFO [RMI TCP Connection(14)-192.168.0.13][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:11,137 INFO [RMI TCP Connection(14)-192.168.0.13][FrameworkServlet.java:524] - Initializing Servlet 'dispatcherServlet'
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:11,158 INFO [RMI TCP Connection(14)-192.168.0.13][FrameworkServlet.java:546] - Completed initialization in 21 ms
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:11,699 INFO [RMI TCP Connection(15)-192.168.0.13][EpollProvider.java:68] - Starting without optional epoll library
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:11,710 INFO [RMI TCP Connection(15)-192.168.0.13][KqueueProvider.java:70] - Starting without optional kqueue library
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:40,149 INFO [DiscoveryClient-CacheRefreshExecutor-0][DiscoveryClient.java:958] - Disable delta property : false
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:40,150 INFO [DiscoveryClient-CacheRefreshExecutor-0][DiscoveryClient.java:959] - Single vip registry refresh property : null
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:40,150 INFO [DiscoveryClient-CacheRefreshExecutor-0][DiscoveryClient.java:960] - Force full registry fetch : false
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:40,150 INFO [DiscoveryClient-CacheRefreshExecutor-0][DiscoveryClient.java:961] - Application is null : false
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:40,150 INFO [DiscoveryClient-CacheRefreshExecutor-0][DiscoveryClient.java:962] - Registered Applications size is zero : true
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:40,150 INFO [DiscoveryClient-CacheRefreshExecutor-0][DiscoveryClient.java:964] - Application version is -1: false
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:40,150 INFO [DiscoveryClient-CacheRefreshExecutor-0][DiscoveryClient.java:1047] - Getting all instance registry info from the eureka server
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:40,183 INFO [DiscoveryClient-CacheRefreshExecutor-0][DiscoveryClient.java:1056] - The response status is 200
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:48,186 INFO [http-nio-53010-exec-3][ChainedDynamicProperty.java:115] - Flipping property: uaa-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:48,208 INFO [http-nio-53010-exec-3][ShutdownEnabledTimer.java:58] - Shutdown hook installed for: NFLoadBalancer-PingTimer-uaa-service
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:48,209 INFO [http-nio-53010-exec-3][BaseLoadBalancer.java:197] - Client: uaa-service instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=uaa-service,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:48,217 INFO [http-nio-53010-exec-3][DynamicServerListLoadBalancer.java:222] - Using serverListUpdater PollingServerListUpdater
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:48,222 INFO [http-nio-53010-exec-3][DynamicServerListLoadBalancer.java:150] - DynamicServerListLoadBalancer for client uaa-service initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=uaa-service,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@271633d9
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:57:48,499 WARN [http-nio-53010-exec-3][SendErrorFilter.java:81] - Error during filtering
+com.netflix.zuul.exception.ZuulException: Forwarding error
+	at org.springframework.cloud.netflix.zuul.filters.route.RibbonRoutingFilter.handleException(RibbonRoutingFilter.java:191)
+	at org.springframework.cloud.netflix.zuul.filters.route.RibbonRoutingFilter.forward(RibbonRoutingFilter.java:166)
+	at org.springframework.cloud.netflix.zuul.filters.route.RibbonRoutingFilter.run(RibbonRoutingFilter.java:114)
+	at com.netflix.zuul.ZuulFilter.runFilter(ZuulFilter.java:117)
+	at com.netflix.zuul.FilterProcessor.processZuulFilter(FilterProcessor.java:193)
+	at com.netflix.zuul.FilterProcessor.runFilters(FilterProcessor.java:157)
+	at com.netflix.zuul.FilterProcessor.route(FilterProcessor.java:118)
+	at com.netflix.zuul.ZuulRunner.route(ZuulRunner.java:96)
+	at com.netflix.zuul.http.ZuulServlet.route(ZuulServlet.java:116)
+	at com.netflix.zuul.http.ZuulServlet.service(ZuulServlet.java:81)
+	at org.springframework.web.servlet.mvc.ServletWrappingController.handleRequestInternal(ServletWrappingController.java:165)
+	at org.springframework.cloud.netflix.zuul.web.ZuulController.handleRequest(ZuulController.java:44)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:117)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:106)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.netflix.client.ClientException: Load balancer does not have available server for client: uaa-service
+	at org.springframework.cloud.netflix.ribbon.support.AbstractLoadBalancingClient.validateServiceInstance(AbstractLoadBalancingClient.java:143)
+	at org.springframework.cloud.netflix.ribbon.apache.RetryableRibbonLoadBalancingHttpClient.lambda$execute$0(RetryableRibbonLoadBalancingHttpClient.java:91)
+	at org.springframework.retry.support.RetryTemplate.doExecute(RetryTemplate.java:287)
+	at org.springframework.retry.support.RetryTemplate.execute(RetryTemplate.java:180)
+	at org.springframework.cloud.netflix.ribbon.apache.RetryableRibbonLoadBalancingHttpClient.executeWithRetry(RetryableRibbonLoadBalancingHttpClient.java:153)
+	at org.springframework.cloud.netflix.ribbon.apache.RetryableRibbonLoadBalancingHttpClient.execute(RetryableRibbonLoadBalancingHttpClient.java:125)
+	at org.springframework.cloud.netflix.ribbon.apache.RetryableRibbonLoadBalancingHttpClient.execute(RetryableRibbonLoadBalancingHttpClient.java:58)
+	at org.springframework.cloud.netflix.zuul.filters.route.support.AbstractRibbonCommand.run(AbstractRibbonCommand.java:184)
+	at org.springframework.cloud.netflix.zuul.filters.route.support.AbstractRibbonCommand.run(AbstractRibbonCommand.java:51)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:302)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:298)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:46)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:51)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:51)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeMap.call(OnSubscribeMap.java:48)
+	at rx.internal.operators.OnSubscribeMap.call(OnSubscribeMap.java:33)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:51)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.subscribe(Observable.java:10423)
+	at rx.Observable.subscribe(Observable.java:10390)
+	at rx.internal.operators.BlockingOperatorToFuture.toFuture(BlockingOperatorToFuture.java:51)
+	at rx.observables.BlockingObservable.toFuture(BlockingObservable.java:410)
+	at com.netflix.hystrix.HystrixCommand.queue(HystrixCommand.java:378)
+	at com.netflix.hystrix.HystrixCommand.execute(HystrixCommand.java:344)
+	at org.springframework.cloud.netflix.zuul.filters.route.RibbonRoutingFilter.forward(RibbonRoutingFilter.java:161)
+	... 68 more
+[wanxinp2p-gateway-server][${env:SERVER_PORT}] 2021-10-15 18:58:19,337 INFO [PollingServerListUpdater-0][ChainedDynamicProperty.java:115] - Flipping property: uaa-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647

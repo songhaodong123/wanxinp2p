@@ -1,0 +1,7 @@
+cn\itcast\wanxinp2p\api\consumer\ConsumerAPI.class
+cn\itcast\wanxinp2p\api\consumer\model\ConsumerRegisterDTO.class
+cn\itcast\wanxinp2p\api\account\model\AccountRegisterDTO.class
+cn\itcast\wanxinp2p\api\account\model\AccountDTO.class
+cn\itcast\wanxinp2p\api\account\model\AccountLoginDTO.class
+cn\itcast\wanxinp2p\api\account\AccountAPI.class
+cn\itcast\wanxinp2p\api\consumer\model\ConsumerDTO.class
