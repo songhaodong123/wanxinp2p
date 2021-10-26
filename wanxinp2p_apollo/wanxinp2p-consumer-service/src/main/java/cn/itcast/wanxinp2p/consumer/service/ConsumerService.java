@@ -2,6 +2,7 @@ package cn.itcast.wanxinp2p.consumer.service;
 
 import cn.itcast.wanxinp2p.api.consumer.model.ConsumerRegisterDTO;
 import cn.itcast.wanxinp2p.api.consumer.model.ConsumerRequest;
+import cn.itcast.wanxinp2p.api.depository.model.DepositoryConsumerResponse;
 import cn.itcast.wanxinp2p.api.depository.model.GatewayRequest;
 import cn.itcast.wanxinp2p.common.domain.RestResponse;
 import cn.itcast.wanxinp2p.consumer.entity.Consumer;
@@ -27,5 +28,13 @@ public interface ConsumerService extends IService<Consumer> {
      @return 与银行存管系统对接使用的签名请求数据
      */
     RestResponse<GatewayRequest> createConsumer(ConsumerRequest consumerRequest);
+
+    /**
+     * 更新开户结果
+     * @param response 存管代理服务发送的数据
+     * @return
+     */
+    Boolean modifyResult(DepositoryConsumerResponse response);
+
 
 }

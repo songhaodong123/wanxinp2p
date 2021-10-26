@@ -9,6 +9,7 @@ import cn.itcast.wanxinp2p.depository.common.constant.DepositoryRequestTypeCode;
 import cn.itcast.wanxinp2p.depository.entity.DepositoryRecord;
 import cn.itcast.wanxinp2p.depository.mapper.DepositoryRecordMapper;
 import com.alibaba.fastjson.JSON;
+import com.baomidou.mybatisplus.core.toolkit.Wrappers;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -21,11 +22,12 @@ public class DepositoryRecordServiceImpl extends ServiceImpl<DepositoryRecordMap
     @Autowired
     private ConfigService configService;
 
+
     @Override
     public GatewayRequest createConsumer(ConsumerRequest consumerRequest) {
         //1.保存交易记录
         saveDepositoryRecord(consumerRequest);
-//2.签名数据并返回
+        //2.签名数据并返回
         String reqData= JSON.toJSONString(consumerRequest);
         String sign= RSAUtil.sign(reqData,configService.getP2pPrivateKey(),"utf-8");
         GatewayRequest gatewayRequest=new GatewayRequest();
@@ -51,4 +53,17 @@ public class DepositoryRecordServiceImpl extends ServiceImpl<DepositoryRecordMap
         save(depositoryRecord);
     }
 
+    /**
+     * 根据请求流水号更新请求状态
+     * @param requestNo 请求流水号
+     * @param requestsStatus 请求状态  0未同步 1已同步 2银行存管系统处理失败
+     * @return 修改是否成功
+     */
+    @Override
+    public Boolean modifyRequestStatus(String requestNo, Integer requestsStatus) {
+        return update(Wrappers.<DepositoryRecord>lambdaUpdate()
+                .eq(DepositoryRecord::getRequestNo, requestNo)
+                .set(DepositoryRecord::getRequestStatus, requestsStatus)
+                .set(DepositoryRecord::getConfirmDate, LocalDateTime.now()));
+    }
 }
